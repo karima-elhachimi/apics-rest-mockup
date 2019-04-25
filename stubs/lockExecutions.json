@@ -1,0 +1,20 @@
+[
+    { 
+        "executionId": 1,
+        "direction": "in",
+        "planned_start": "20190602T093000Z",
+        "planned_end": "20190702T095000Z"  
+    },
+    { 
+        "executionId": 2,
+        "direction": "out",
+        "planned_start": "20190602T103000Z",
+        "planned_end": "20190702T113000Z"     
+    },
+    { 
+        "executionId": 3,
+        "direction": "in",
+        "planned_start": "20190602T133000Z",
+        "planned_end": "20190702T143000Z"       
+    }
+]

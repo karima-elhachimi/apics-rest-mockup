@@ -1,0 +1,13 @@
+{
+    "executionId": 1,
+    "lockCode": "ZAS",
+    "direction": "in",
+    "planned_start": "20190602T093000Z",
+    "planned_end": "20190702T093000Z",
+    "vessels": [
+        {"sea": ["Shipname 1", "boatymcboatface"]},
+        {"inland": ["tiny ship", "bargeship", "container ship"]}
+    ],
+    "status": "RELEASED"
+
+}
