@@ -39,10 +39,24 @@ app.get('/apics/lockexecution/:lockid', (req, res) => {
 
 });
 
+app.get('/apics/quay/:quaynumber', (req, res) => {
+    const quay = readJsonFromFile('./stubs/quay.json');
+    res.json(quay);
+});
+
+app.get('apics/quays/location', (req, res) => {
+
+});
+
+app.get('apics/ship/details/:shipId', (req, res) => {
+
+});
+
 function readJsonFromFile(fileLocation) {
     const rawData = fs.readFileSync(fileLocation);
     const json = JSON.parse(rawData);
     console.log(`parsed file in json: ${json}`);
     return json;
 }
+
 app.listen(port, '0.0.0.0', () => console.log(`app is running on localhost:${port}`));
