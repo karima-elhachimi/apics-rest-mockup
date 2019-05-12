@@ -1,5 +1,26 @@
 [
-    {},
-    {},
-    {}
+    {
+        "id": 1,
+        "quaynumber": 250,
+        "status": "available",
+        "availableFrom": "20190602T093000Z",
+        "availableTill": "20190702T093000Z",
+        "contact" : "0032484058976"
+    },
+    {
+        "id": 2,
+        "quaynumber": 273,
+        "status": "available",
+        "availableFrom": "20190602T093000Z",
+        "availableTill": "20190702T093000Z",
+        "contact" : "0032484058976"
+    },
+    {
+        "id": 3,
+        "quaynumber": 153,
+        "status": "available",
+        "availableFrom": "20190602T093000Z",
+        "availableTill": "20190702T093000Z",
+        "contact" : "0032484058976"
+    }
 ]
