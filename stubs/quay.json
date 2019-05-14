@@ -1,6 +1,6 @@
 {
     "id": 4,
-    "quaynumber": 140,
+    "quayNumber": "140",
     "status": "unavailable",
     "availableFrom": "20190602T093000Z",
     "availableTilm": "20190702T093000Z", 
