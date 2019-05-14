@@ -49,10 +49,18 @@ app.get('/apics/quay/:quaynumber', (req, res) => {
     res.json(quay);
 });
 
+
+
+app.get('apics/quays', (req, res) => {
+
+// get 3 most recent available
+    const quays = readJsonFromFile('./stubs/availableQuays.json');
+    res.json(quays);
+});
+
 app.get('apics/quays/:location', (req, res) => {
 
     //get all quays within a radius from a location
-    //otherwise, get 3 most recent available
     const quays = readJsonFromFile('./stubs/availableQuays.json');
     res.json(quays);
 });
