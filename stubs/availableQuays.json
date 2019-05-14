@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "quaynumber": 250,
+        "quayNumber": "S250",
         "status": "available",
         "availableFrom": "20190602T093000Z",
         "availableTill": "20190702T093000Z",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "quaynumber": 273,
+        "quayNumber": "273",
         "status": "available",
         "availableFrom": "20190602T093000Z",
         "availableTill": "20190702T093000Z",
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "quaynumber": 153,
+        "quayNumber": "153",
         "status": "available",
         "availableFrom": "20190602T093000Z",
         "availableTill": "20190702T093000Z",
