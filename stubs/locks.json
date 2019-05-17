@@ -1,5 +1,7 @@
 [
     {"lockId": "1", "lockCode": "KIS","lockName": "kieldrechtsluis", "status": "EXECUTION"},
-    {"lockId": "2", "lockCode": "BOS","lockName": "boudewijnsluis", "status": "COMPLETED"},
-    {"lockId": "3", "lockCode": "ZAS","lockName": "zandvlietsluis", "status": "RELEASED"}
+    {"lockId": "2", "lockCode": "BOS","lockName": "boudewijnsluis", "status": "UNAVAILABLE"},
+    {"lockId": "3", "lockCode": "ZAS","lockName": "zandvlietsluis", "status": "RELEASED"},
+    {"lockId": "4",  "lockCode": "ROS", "lockName": "Royerssluis", "status": "EXECUTION"},
+    {"lockId": "5", "lockCode": "VCS", "lockName": "Van Cauwelaertsluis", "status": "UNAVAILABLE"}
 ]
